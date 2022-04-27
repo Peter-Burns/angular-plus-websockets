@@ -1,0 +1,97 @@
+{
+  "css.lint.unknownAtRules": "ignore",
+  "editor.linkedEditing": true,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.decorations.badges": true,
+  "editor.guides.indentation": true,
+  "breadcrumbs.enabled": true,
+  "html.format.wrapAttributes": "force-aligned",
+  "explorer.openEditors.visible": 0,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "typescript.check.npmIsInstalled": true,
+  "workbench.editor.labelFormat": "medium",
+  "editor.minimap.enabled": false,
+
+  "eslint.rules.customizations": [
+    {
+      "rule": "*",
+      "severity": "warn"
+    }
+  ],
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground": "#ff0000"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": false,
+    "source.fixAll": true,
+    "eslint.autoFixOnSave": true /* already set with source.fixAll, but here to document */
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "explorer.confirmDelete": false,
+  "eslint.quiet": true,
+  "terminal.integrated.fontFamily": "'FiraCode NF Retina'",
+  "editor.detectIndentation": false,
+  "eslint.options": {
+    "extensions": [".ts", ".html"]
+  },
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "markdown"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "[!s]*/**": true,
+    "s[!r]*/**": true,
+    "sr[!c]*/**": true,
+    "src/[!a]*/**": true,
+    "src/a[!p]*/**": true,
+    "src/ap[!p]*/**": true,
+    "src/app/[!f]*/**": true,
+    "src/app/f[!e]*/**": true,
+    "src/app/fe[!a]*/**": true,
+    "src/app/fea[!t]*/**": true,
+    "src/app/feat[!u]*/**": true,
+    "src/app/featu[!r]*/**": true,
+    "src/app/featur[!e]*/**": true,
+    "src/app/feature[!s]*/**": true,
+    "src/app/features/[!t]*/**": true,
+    "src/app/features/t[!o]*/**": true,
+    "src/app/features/to[!d]*/**": true,
+    "src/app/features/tod[!o]*/**": true,
+    "src/app/features/todo[!s]*/**": true
+  }
+}
